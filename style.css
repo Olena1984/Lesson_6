@@ -26,24 +26,34 @@ header{
 }
 .top {
    
-   display: flex;
+    display: flex;
     width: 1200px;
     height: 60px;
     flex-shrink: 0;   
     margin-bottom: 130px;
 }
-.nav ul  {
+.nav ul {
     display: flex;
     width: 322px;
     height: 30px;
     flex-shrink: 0;
-    justify-content: space-between;
+    list-style: none;
+    
     align-items: center;
     margin-right: 418px;
     margin-top: 17px;
     margin-bottom: 17px;
 }
+li {
+    padding-right: 40px;
+}
 a {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 160%;
+    
+    color: #4B5D68;
     text-decoration: none;
 }
 .logo {
@@ -990,8 +1000,8 @@ a {
     border: none;
     background: none;
 
-    position: absolute;
-    top: 348px;
+    position: fixed;
+    top: 854px;
     left: 1057px;
 }
 .text_us:hover{
